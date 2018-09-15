@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Ball Game</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Crystals Collector!</h1>
+    <div class="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four cyrstals below. By clcking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if you your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <div>
+        <h2 id="random-number">0</h2>
+    </div>
+    <div class="scoreboard">
+        <div>Wins: <span id="wins">0</span></div>
+        <div>Losses: <span id="losses">0</span></div>
+    </div>
+    <div class="images">
+        <img src="assets/images/blue.jpg" alt="img-1" id="diamond-one">
+        <img src="assets/images/orange.jpg" alt="img-2" id="diamond-two">
+        <img src="assets/images/green.jpg" alt="img-3" id="diamond-three">
+        <img src="assets/images/red.jpg" alt="img-4" id="diamond-four">
+    </div>
+    <div>
+        <h4>Your total score is:</h4>
+        <div class="number-div">
+            <span id="user-number">0</span>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
