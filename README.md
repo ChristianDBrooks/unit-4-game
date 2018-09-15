@@ -1,11 +1,14 @@
 # unit-4-game
+This is a game written primarily with jquery and javascript. The game is based on click events and RGN's that produce a fun little game of luck and paying attention!
 
-        You will be given a random number at the start of the game.
-        
-        There are four cyrstals below. By clcking on a crystal you will add a specific amount of points to your total score.
+Here are the rules: 
 
-        You win the game by matching your total score to random number, you lose the game if you your total score goes above the random number.
-        
-        The value of each crystal is hidden from you until you click on it.
+You will be given a random number at the start of the game.
 
-        Each time when the game starts, the game will change the values of each crystal.<
+There are four cyrstals below. By clcking on a crystal you will add a specific amount of points to your total score.
+
+You win the game by matching your total score to random number, you lose the game if you your total score goes above the random number.
+
+The value of each crystal is hidden from you until you click on it.
+
+Each time when the game starts, the game will change the values of each crystal.<
